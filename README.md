@@ -337,22 +337,76 @@ Index.html:
 </details>
 
 <details>
-  <summary>8. sample</summary>
+  <summary>8. HTML Forms</summary>
 
 ```html
 
 ```
 
 ```html
-
+<form action="" method="post" class="form-example">
+    <div class="form-example">
+      <label for="name">Enter your name: </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+      <label for="email">Enter your email: </label>
+      <input type="email" name="email" id="email" required>
+    </div>
+    <div class="form-example">
+      <input type="submit" value="Subscribe!">
+    </div>
+  </form>
 ```
 
 ```html
-
+<!-- Form with fieldset, legend, and label -->
+<form method="post">
+  <fieldset>
+    <legend>Do you agree to the terms?</legend>
+    <label><input type="radio" name="radio" value="yes" /> Yes</label>
+    <label><input type="radio" name="radio" value="no" /> No</label>
+  </fieldset>
+</form>
 ```
 
-```bash
+```html
+<input type="text">
+<input type="submit">
+<input type="button">
+<input type="file">
+<input type="date">
+<input type="checkbox">
+<input type="radio">
+<input type="range">
+```
 
+Radio Buttons:
+
+```html
+<p>Choose your favorite Web language:</p>
+
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form>
+```
+
+Checkboxes:
+
+```html
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+</form>
 ```
 
 </details>
