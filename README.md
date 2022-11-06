@@ -38,10 +38,19 @@ Learn MERN by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>2. sample</summary>
+  <summary>2. The HTML Boiler Plate</summary>
 
 ```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
 
+  </body>
+</html>
 ```
 
 ```html
