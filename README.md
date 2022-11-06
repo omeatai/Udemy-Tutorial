@@ -10,7 +10,7 @@ Learn MERN by Ifeanyi Omeata
 +INTRODUCTION TO HTML
 
 <details>
-  <summary>1. Headers (H1 - H6)</summary>
+  <summary>1. The HTML Headers</summary>
 
 ```html
 <h1>Heading 1</h1>
@@ -22,15 +22,17 @@ Learn MERN by Ifeanyi Omeata
 ```
 
 ```html
+<!-- This is a Comment -->
 <center>
-    <hr size="3" noshade>
-    <h1>THE ADVENTURES OF <br> SHERLOCK HOLMES</h1>
-    <br>
-    <h3>by</h3>
-    <br>
-    <h2>SIR ARTHUR CONAN DOYLE</h2>
-    <hr size="3" noshade>
+<hr size="3" noshade>
+<h1>THE ADVENTURES OF <br> SHERLOCK HOLMES</h1>
+<br>
+<h3>by</h3>
+<br>
+<h2>SIR ARTHUR CONAN DOYLE</h2>
+<hr size="3" noshade>
 </center>
+<!-- This is the end of the HTML code -->
 ```
 
 </details>
