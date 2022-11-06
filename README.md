@@ -38,7 +38,7 @@ Learn MERN by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>2. The HTML Boiler Plate</summary>
+  <summary>2. The HTML Meta Tags</summary>
 
 ```html
 <!DOCTYPE html>
