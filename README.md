@@ -275,21 +275,62 @@ Contact.html:
 </details>
 
 <details>
-  <summary>7. sample</summary>
+  <summary>7. HTML Tables </summary>
+
+Index.html:
 
 ```html
+<!DOCTYPE html>
+<html>
 
-```
+<head>
+  <meta charset="utf-8">
+  <title>Angela's Personal Site</title>
+</head>
 
-```html
+<body>
+  <img src="https://pbs.twimg.com/profile_images/1523987597751726081/XuQeo7gC_400x400.jpg" width="80px" height="80px" alt="Angela's Photo"></img>
+  <h1>Angela Yu</h1>
+  <p><em>Founder and CTO of <strong><a href="https://www.appbrewery.co/"> The App Brewery </a></strong>.</em></p>
+  <p>I am an iOS and Web Developer. I love coffee and brew my own beers.</p>
+  <hr>
+  <h3>Books and Teaching</h3>
+  <ul>
+    <li>The Complete iOS App Development Bootcamp</li>
+    <li>The Complete Web Development Bootcamp</li>
+  </ul>
+  <hr />
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2010-2013</td>
+        <td>Lead Developer at Tempo App</td>
+      </tr>
+      <tr>
+        <td>2010</td>
+        <td>Researcher at The Institute of Cognitive Neurosciences</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Copyright &copy; the App Brewery</td>
+        <td>👍🏻</td>
+      </tr>
+    </tfoot>
+  </table>
+  <hr>
+  <a href="hobbies.html">My Hobbies</a>
+  <a href="contact.html">Contact Me</a>
+</body>
 
-```
-
-```html
-
-```
-
-```bash
+</html>
 
 ```
 
