@@ -88,22 +88,25 @@ The HTML Meta Tag
 </details>
 
 <details>
-  <summary>3. sample</summary>
+  <summary>3. HTML Example</summary>
 
 ```html
+<!DOCTYPE html>
+<html>
 
-```
+<head>
+  <meta charset="utf-8">
+  <title>Angela's Personal Site</title>
+</head>
 
-```html
+<body>
+  <h1>Angela Yu</h1>
+  <p><em>Founder and CTO of <strong>The App Brewery</strong>.</em></p>
+  <p>I am an iOS and Web Developer. I love coffee and brew my own beers.</p>
+  <hr>
+</body>
 
-```
-
-```html
-
-```
-
-```bash
-
+</html>
 ```
 
 </details>
