@@ -45,20 +45,44 @@ Learn MERN by Ifeanyi Omeata
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="description" content="My Personal Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Site</title>
   </head>
   <body>
-
+    <h1>This is a Html Page</h1>
   </body>
 </html>
 ```
 
-```html
+The HTML Meta Tag
 
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 ```
 
-```bash
-
+```html
+<head lang="en">
+  <meta http-equiv="content-language" content="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="website, blog, foo, bar">
+  <meta name="author" content="John Doe">
+  <meta name="publisher" content="John Doe">
+  <meta name="copyright" content="John Doe">
+  <meta name="description" content="This short description describes my website.">
+  <meta name="page-topic" content="Media">
+  <meta name="page-type" content="Blogging">
+  <meta name="audience" content="Everyone">
+  <meta name="robots" content="index, follow">
+  <title>My website title</title>
+</head>
 ```
 
 ```bash
