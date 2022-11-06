@@ -85,10 +85,6 @@ The HTML Meta Tag
 </head>
 ```
 
-```bash
-
-```
-
 </details>
 
 <details>
@@ -102,7 +98,7 @@ The HTML Meta Tag
 
 ```
 
-```bash
+```html
 
 ```
 
@@ -123,7 +119,7 @@ The HTML Meta Tag
 
 ```
 
-```bash
+```html
 
 ```
 
@@ -144,7 +140,7 @@ The HTML Meta Tag
 
 ```
 
-```bash
+```html
 
 ```
 
@@ -165,7 +161,7 @@ The HTML Meta Tag
 
 ```
 
-```bash
+```html
 
 ```
 
@@ -186,7 +182,7 @@ The HTML Meta Tag
 
 ```
 
-```bash
+```html
 
 ```
 
@@ -207,7 +203,7 @@ The HTML Meta Tag
 
 ```
 
-```bash
+```html
 
 ```
 
@@ -228,7 +224,7 @@ The HTML Meta Tag
 
 ```
 
-```bash
+```html
 
 ```
 
@@ -249,7 +245,7 @@ The HTML Meta Tag
 
 ```
 
-```bash
+```html
 
 ```
 
