@@ -146,7 +146,7 @@ The HTML Meta Tag
 ```
 
 ```html
-<ol type="1">
+<ol type="i">
     <li>foo</li>
     <li>bar</li>
     <li>span</li>
