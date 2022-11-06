@@ -112,21 +112,36 @@ The HTML Meta Tag
 </details>
 
 <details>
-  <summary>4. sample</summary>
+  <summary>4. HTML Lists</summary>
 
 ```html
+<!DOCTYPE html>
+<html>
 
-```
+<head>
+  <meta charset="utf-8">
+  <title>Angela's Personal Site</title>
+</head>
 
-```html
+<body>
+  <h1>Angela Yu</h1>
+  <p><em>Founder and CTO of <strong>The App Brewery</strong>.</em></p>
+  <p>I am an iOS and Web Developer. I love coffee and brew my own beers.</p>
+  <hr>
+  <h3>Books and Teaching</h3>
+  <ul>
+    <li>The Complete iOS App Development Bootcamp</li>
+    <li>The Complete Web Development Bootcamp</li>
+  </ul>
+  <h3>My Hobbies</h3>
+  <ol>
+    <li>Beer brewing</li>
+    <li>Martial arts</li>
+    <li>Motorcycles</li>
+  </ol>
+</body>
 
-```
-
-```html
-
-```
-
-```bash
+</html>
 
 ```
 
