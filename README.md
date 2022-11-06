@@ -154,7 +154,7 @@ The HTML Meta Tag
 ```
 
 ```html
-<ol start-"7">
+<ol start="7">
     <li>first item</li>
     <li>second item</li>
     <li>third item</LI>
