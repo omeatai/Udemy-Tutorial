@@ -164,42 +164,111 @@ The HTML Meta Tag
 </details>
 
 <details>
-  <summary>5. sample</summary>
+  <summary>5. HTML Images</summary>
 
 ```html
+<!DOCTYPE html>
+<html>
 
-```
+<head>
+  <meta charset="utf-8">
+  <title>Angela's Personal Site</title>
+</head>
 
-```html
+<body>
+  <img src="https://pbs.twimg.com/profile_images/1523987597751726081/XuQeo7gC_400x400.jpg" width="80px" height="80px" alt="Angela's Photo"></img>
+  <!-- <img src="images/myimage.png" width="80px" height="80px" alt="Angela's Photo"></img> -->
+  <h1>Angela Yu</h1>
+  <p><em>Founder and CTO of <strong>The App Brewery</strong>.</em></p>
+  <p>I am an iOS and Web Developer. I love coffee and brew my own beers.</p>
+  <hr>
+  <h3>Books and Teaching</h3>
+  <ul>
+    <li>The Complete iOS App Development Bootcamp</li>
+    <li>The Complete Web Development Bootcamp</li>
+  </ul>
+  <h3>My Hobbies</h3>
+  <ol>
+    <li>Beer brewing</li>
+    <li>Martial arts</li>
+    <li>Motorcycles</li>
+  </ol>
+</body>
 
-```
-
-```html
-
-```
-
-```bash
-
+</html>
 ```
 
 </details>
 
 <details>
-  <summary>6. sample</summary>
+  <summary>6. HTML Anchors</summary>
+
+Index.html:
 
 ```html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Angela's Personal Site</title>
+</head>
+
+<body>
+  <img src="https://pbs.twimg.com/profile_images/1523987597751726081/XuQeo7gC_400x400.jpg" width="80px" height="80px" alt="Angela's Photo"></img>
+  <h1>Angela Yu</h1>
+  <p><em>Founder and CTO of <strong><a href="https://www.appbrewery.co/"> The App Brewery </a></strong>.</em></p>
+  <p>I am an iOS and Web Developer. I love coffee and brew my own beers.</p>
+  <hr>
+  <h3>Books and Teaching</h3>
+  <ul>
+    <li>The Complete iOS App Development Bootcamp</li>
+    <li>The Complete Web Development Bootcamp</li>
+  </ul>
+  <a href="hobbies.html">My Hobbies</a>
+  <a href="contact.html">Contact Me</a>
+</body>
+
+</html>
+```
+
+Hobbies.html:
+
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Hobbies</title>
+  </head>
+  <body>
+    <h3>My Hobbies</h3>
+    <ol>
+      <li><a href="#">Beer brewing</a></li>
+      <li>Martial arts</li>
+      <li><a href="#">Motorcycles</a></li>
+    </ol>
+  </body>
+</html>
 
 ```
 
-```html
-
-```
+Contact.html:
 
 ```html
-
-```
-
-```bash
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contact</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>My Fictional Address</p>
+    <p>077263718463</p>
+    <p>myemail@gmail.com</p>
+  </body>
+</html>
 
 ```
 
