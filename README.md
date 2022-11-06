@@ -145,6 +145,22 @@ The HTML Meta Tag
 
 ```
 
+```html
+<ol type="1">
+    <li>foo</li>
+    <li>bar</li>
+    <li>span</li>
+</ol>
+```
+
+```html
+<ol start-"7">
+    <li>first item</li>
+    <li>second item</li>
+    <li>third item</LI>
+</ol>
+```
+
 </details>
 
 <details>
