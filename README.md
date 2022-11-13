@@ -1,5 +1,5 @@
-# Mern-Tutorial
-Learn MERN by Ifeanyi Omeata
+# Udemy-Mern-Tutorial
+Learn Udemy MERN by Ifeanyi Omeata
 
 ## Tutorial
 
